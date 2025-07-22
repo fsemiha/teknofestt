@@ -130,46 +130,46 @@ body, html {
 /* Ana sayfa panel-desc için özel mobil kuralları */
 @media (max-width: 768px) {
     .panel-desc {
-        font-size: 0.7rem !important;
-        line-height: 1.1 !important;
-        padding: 0 12px !important;
-        margin-bottom: 12px !important;
-        max-width: 85% !important;
+        font-size: 0.9rem !important;
+        line-height: 1.3 !important;
+        padding: 0 15px !important;
+        margin-bottom: 15px !important;
+        max-width: 90% !important;
         margin-left: auto !important;
         margin-right: auto !important;
-        letter-spacing: 0.2px !important;
+        letter-spacing: 0.3px !important;
     }
 }
 
 @media (max-width: 480px) {
     .panel-desc {
-        font-size: 0.6rem !important;
-        line-height: 1.05 !important;
-        padding: 0 8px !important;
-        margin-bottom: 8px !important;
-        max-width: 80% !important;
-        letter-spacing: 0.1px !important;
+        font-size: 0.8rem !important;
+        line-height: 1.2 !important;
+        padding: 0 12px !important;
+        margin-bottom: 12px !important;
+        max-width: 85% !important;
+        letter-spacing: 0.2px !important;
     }
 }
 
 @media (max-width: 360px) {
     .panel-desc {
-        font-size: 0.55rem !important;
-        line-height: 1 !important;
-        padding: 0 6px !important;
-        margin-bottom: 6px !important;
-        max-width: 75% !important;
-        letter-spacing: 0px !important;
+        font-size: 0.75rem !important;
+        line-height: 1.15 !important;
+        padding: 0 10px !important;
+        margin-bottom: 10px !important;
+        max-width: 80% !important;
+        letter-spacing: 0.1px !important;
     }
 }
 
 @media (max-width: 320px) {
     .panel-desc {
-        font-size: 0.5rem !important;
-        line-height: 0.95 !important;
-        padding: 0 4px !important;
-        margin-bottom: 4px !important;
-        max-width: 70% !important;
+        font-size: 0.7rem !important;
+        line-height: 1.1 !important;
+        padding: 0 8px !important;
+        margin-bottom: 8px !important;
+        max-width: 75% !important;
         letter-spacing: 0px !important;
     }
 }
@@ -1302,54 +1302,54 @@ body, html {
     }
     
     .inside-panel {
-        width: 92% !important;
-        gap: 12px !important;
-        padding: 5px 8px !important;
-        max-width: 95% !important;
+        width: 85% !important;
+        gap: 18px !important;
+        padding: 10px 8px !important;
+        max-width: 90% !important;
     }
     
     .main-title-panel {
-        width: 90vw !important;
+        width: 95vw !important;
         max-width: none !important;
         padding: 0 5px;
-        height: 55vw !important;
-        min-height: 280px !important;
-        max-height: 400px !important;
+        height: 70vw !important;
+        min-height: 400px !important;
+        max-height: 600px !important;
     }
     
     .input-svg-wrapper {
         width: 85% !important;
-        max-width: 280px !important;
-        margin-bottom: 10px !important;
+        max-width: 320px !important;
+        margin-bottom: 15px !important;
     }
     
     .main-buttons {
-        width: 85% !important;
-        gap: 6px !important;
+        width: 80% !important;
+        gap: 10px !important;
     }
 }
 
 /* Orta boy mobil cihazlar */
 @media (max-width: 480px) {
     .username-input-on-svg {
-        font-size: 0.8rem !important;
+        font-size: 0.85rem !important;
         padding: 0 10px !important;
-        line-height: 1.1;
+        line-height: 1.2;
     }
     
     .password-title {
-        font-size: 1rem !important;
-        margin: 6px 0 !important;
+        font-size: 1.1rem !important;
+        margin: 8px 0 !important;
         text-align: center;
         word-wrap: break-word;
-        line-height: 1.1 !important;
+        line-height: 1.2 !important;
     }
     
     .password-desc {
-        font-size: 0.75rem !important;
-        line-height: 1.2 !important;
-        margin: 6px 0 !important;
-        padding: 0 8px !important;
+        font-size: 0.85rem !important;
+        line-height: 1.3 !important;
+        margin: 8px 0 !important;
+        padding: 0 10px !important;
         text-align: center;
         word-break: break-word;
         max-width: 90% !important;
@@ -1359,35 +1359,97 @@ body, html {
     
     .input-svg-wrapper {
         width: 80% !important;
-        max-width: 260px !important;
-        margin: 0 auto 8px auto !important;
+        max-width: 280px !important;
+        margin: 0 auto 12px auto !important;
     }
     
     .password-input-wrapper {
-        margin-bottom: 6px !important;
+        margin-bottom: 10px !important;
     }
     
     .main-buttons {
-        width: 85% !important;
-        gap: 5px !important;
+        width: 75% !important;
+        gap: 8px !important;
     }
     
     .inside-panel {
-        gap: 8px !important;
-        padding: 3px 5px !important;
-        width: 90% !important;
+        gap: 15px !important;
+        padding: 8px 5px !important;
+        width: 85% !important;
+        max-width: 90% !important;
+    }
+    
+    .main-title-panel {
+        width: 90vw !important;
+        height: 65vw !important;
+        min-height: 350px !important;
+        max-height: 500px !important;
+    }
+    
+    .svg-box {
+        width: 32vw !important;
+        max-width: 120px !important;
+        min-width: 80px !important;
+        height: 45px !important;
+    }
+    
+    .svg-text {
+        font-size: 0.55rem !important;
+        line-height: 1.1;
+        padding: 2px;
+    }
+}
+
+/* Küçük mobil cihazlar */
+@media (max-width: 360px) {
+    .username-input-on-svg {
+        font-size: 0.8rem !important;
+        padding: 0 8px !important;
+    }
+    
+    .password-title {
+        font-size: 1rem !important;
+        margin: 6px 0 !important;
+        line-height: 1.1 !important;
+    }
+    
+    .password-desc {
+        font-size: 0.8rem !important;
+        line-height: 1.2 !important;
+        margin: 6px 0 !important;
+        padding: 0 8px !important;
+        max-width: 85% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    
+    .input-svg-wrapper {
+        width: 85% !important;
+        max-width: 260px !important;
+        margin: 0 auto 10px auto !important;
+    }
+    
+    .inside-panel {
+        gap: 12px !important;
+        padding: 6px 3px !important;
+        width: 88% !important;
         max-width: 92% !important;
     }
     
     .main-title-panel {
-        width: 85vw !important;
-        height: 50vw !important;
-        min-height: 260px !important;
-        max-height: 350px !important;
+        width: 95vw !important;
+        height: 60vw !important;
+        min-height: 320px !important;
+        max-height: 450px !important;
+    }
+    
+    .main-buttons {
+        width: 80% !important;
+        gap: 6px !important;
     }
     
     .svg-box {
-        width: 30vw !important;
+        width: 35vw !important;
         max-width: 100px !important;
         min-width: 70px !important;
         height: 40px !important;
@@ -1397,59 +1459,68 @@ body, html {
         font-size: 0.5rem !important;
         line-height: 1;
         padding: 1px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    
+    .logo {
+        width: 60px !important;
+        top: 8px !important;
+        left: 8px !important;
     }
 }
 
-/* Küçük mobil cihazlar */
-@media (max-width: 360px) {
+/* Çok küçük mobil cihazlar ve yatay mod */
+@media (max-width: 320px) {
     .username-input-on-svg {
         font-size: 0.75rem !important;
-        padding: 0 8px !important;
+        padding: 0 6px !important;
     }
     
     .password-title {
         font-size: 0.9rem !important;
-        margin: 4px 0 !important;
+        margin: 5px 0 !important;
         line-height: 1 !important;
     }
     
     .password-desc {
-        font-size: 0.65rem !important;
+        font-size: 0.75rem !important;
         line-height: 1.1 !important;
-        margin: 4px 0 !important;
+        margin: 5px 0 !important;
         padding: 0 6px !important;
-        max-width: 85% !important;
+        max-width: 80% !important;
         margin-left: auto !important;
         margin-right: auto !important;
     }
     
     .input-svg-wrapper {
-        width: 85% !important;
+        width: 90% !important;
         max-width: 240px !important;
-        margin: 0 auto 6px auto !important;
+        margin: 0 auto 8px auto !important;
     }
     
     .inside-panel {
-        gap: 6px !important;
-        padding: 2px 3px !important;
-        width: 95% !important;
-        max-width: 96% !important;
+        gap: 10px !important;
+        padding: 4px 2px !important;
+        width: 90% !important;
+        max-width: 95% !important;
     }
     
     .main-title-panel {
-        width: 90vw !important;
-        height: 45vw !important;
-        min-height: 240px !important;
-        max-height: 320px !important;
+        width: 98vw !important;
+        height: 55vw !important;
+        min-height: 300px !important;
+        max-height: 400px !important;
     }
     
     .main-buttons {
-        width: 90% !important;
-        gap: 4px !important;
+        width: 85% !important;
+        gap: 5px !important;
     }
     
     .svg-box {
-        width: 35vw !important;
+        width: 38vw !important;
         max-width: 85px !important;
         min-width: 60px !important;
         height: 35px !important;
@@ -1458,77 +1529,6 @@ body, html {
     .svg-text {
         font-size: 0.45rem !important;
         line-height: 0.9;
-        padding: 0px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-    
-    .logo {
-        width: 50px !important;
-        top: 6px !important;
-        left: 6px !important;
-    }
-}
-
-/* Çok küçük mobil cihazlar ve yatay mod */
-@media (max-width: 320px) {
-    .username-input-on-svg {
-        font-size: 0.7rem !important;
-        padding: 0 6px !important;
-    }
-    
-    .password-title {
-        font-size: 0.8rem !important;
-        margin: 3px 0 !important;
-        line-height: 0.9 !important;
-    }
-    
-    .password-desc {
-        font-size: 0.6rem !important;
-        line-height: 1 !important;
-        margin: 3px 0 !important;
-        padding: 0 4px !important;
-        max-width: 80% !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-    
-    .input-svg-wrapper {
-        width: 90% !important;
-        max-width: 220px !important;
-        margin: 0 auto 5px auto !important;
-    }
-    
-    .inside-panel {
-        gap: 4px !important;
-        padding: 1px 2px !important;
-        width: 98% !important;
-        max-width: 98% !important;
-    }
-    
-    .main-title-panel {
-        width: 95vw !important;
-        height: 40vw !important;
-        min-height: 220px !important;
-        max-height: 280px !important;
-    }
-    
-    .main-buttons {
-        width: 95% !important;
-        gap: 3px !important;
-    }
-    
-    .svg-box {
-        width: 40vw !important;
-        max-width: 75px !important;
-        min-width: 55px !important;
-        height: 30px !important;
-    }
-    
-    .svg-text {
-        font-size: 0.4rem !important;
-        line-height: 0.8;
     }
 }
 
